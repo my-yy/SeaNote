@@ -1,0 +1,74 @@
+.highlight {
+  background-color: rgb(255, 197, 28);
+}
+
+
+.fr-element hr.qa {
+  color: red;
+  border: none;
+  border-bottom: 1px red solid;
+}
+
+
+/*去掉tool-bar的圆角*/
+.fr-toolbar {
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+/*下方的输入框*/
+.fr-wrapper {
+  border-left: none !important;
+  border-right: none !important;
+  /*border: 1px red solid !important;*/
+}
+
+/*隐藏底部的froala logo*/
+.fr-second-toolbar {
+  display: none;
+}
+
+/*.fr-wrapper p {*/
+/*  !*margin: 0;*!*/
+/*}*/
+
+/*调整编辑器默认字体大小*/
+.fr-wrapper p {
+  font-size: 1.2em;
+}
+
+
+/*调整toolbar大小*/
+.fr-toolbar {
+  /*border: 1px red solid !important;*/
+}
+
+.fr-toolbar button {
+  /*border: 1px lightgreen solid !important;*/
+  height: 30px !important;
+}
+
+.fr-toolbar svg {
+  /*border: 1px blue solid !important;*/
+  padding: 0 !important;
+  margin: 0 4px 0 4px !important;
+  width: 18px !important;
+}
+
+.fr-more-toolbar {
+  /*height: 30px !important;*/
+  /*border: 1px red solid !important;*/
+}
+
+.fr-wrapper {
+  /*去除底部的线*/
+  border-bottom: none !important;
+  /*border: 1px red solid !important;*/
+  /*padding: 0 !important;*/
+}
+
+.fr-wrapper > .fr-view {
+  /*border: 1px blue solid !important;*/
+  padding: 5px 10px !important;
+  /*  左右padding为10*/
+}
